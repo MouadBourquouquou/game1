@@ -1,20 +1,28 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UFO GAME</title>
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="./style/welcome.css">
+    <title>Welcome to UFO GAME</title>
 </head>
-<body>
-    <canvas id="mainGame"></canvas>
-    <div class="buttons">
-        <button id="toRight" class="btn"><==</button>
-        <button id="shoot" class="btn">shoot</button>
-        <button id="toLeft" class="btn toLeft">==></button>
-        <button id="restart" class="btn restart">R</button>
-    </div>
-    <img src="./images/enemy.png" alt="spider" id="spider">
-    <img src="./images/myBestUfo.png" alt="Me" id="me" style="display: none;">
-    <script src="script/code.js"></script>
-</body>
+    <body>
+        <h1>Welcome to UFO GAME</h1>
+        <p class="instructions">
+            <strong>Use a laptop for a better experience</strong>
+        </p>
+        <div class="instructions">
+            <h3>How to play:</h3>
+            <p>If you are using a <span class="key">laptop</span>, you can:</p>
+            <ul>
+                <li>Move with the <span class="arrow-keys">→</span> and <span class="arrow-keys">←</span> arrow keys on your keyboard</li>
+                <li>Shoot enemies with the <span class="key">"X"</span> key</li>
+                <li>Restart the game with the <span class="key">"R"</span> key</li>
+            </ul>
+            <p>If you are using a <span class="key-note">smartphone</span>, you can use the <span class="key-note">buttons</span> on the screen.</p>
+        </div>
+        <div class="button-container">
+            <button><a href="welco.html">Start</a></button>
+        </div>
+    </body>
 </html>
