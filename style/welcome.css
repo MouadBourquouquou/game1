@@ -1,0 +1,68 @@
+body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1E3C72, #2A5298); /* Gradient background */
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+}
+
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 20px;
+            color: #FFD700; /* Gold for emphasis */
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .instructions {
+            margin: 30px;
+            font-size: 1.2rem;
+        }
+
+        .button-container {
+            margin: 30px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1rem;
+            background-color: #FF5733;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #FF7F50;
+        }
+
+        .key {
+            font-weight: bold;
+            color: #FF6347; /* Tomato for clarity */
+        }
+
+        .key-note {
+            color: #87CEFA; /* LightSkyBlue for keys on mobile */
+        }
+
+        .arrow-keys {
+            color: #FFD700; /* Gold for the arrow keys */
+        }
+
+        @media (max-width: 768px) {
+            .instructions {
+                font-size: 1rem;
+                margin: 20px;
+            }
+
+            button {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
